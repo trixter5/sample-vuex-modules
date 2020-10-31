@@ -1,12 +1,10 @@
 export default {
   namespaced: true,
   state: {
-    restApiUri: "https://api.iqquantum.com/api/",
-    // devApiUri: "https://devapi.toptrader.org/api/",
-    apiUri: "https://devApi.toptrader.org/api/",
-    // apiUri: "https://api.toptrader.org/api/",
-    emailUri: "https://noti.forexinvest.com/api/email",
-    emailTTUrl: "https://noti.toptrader.org/api/Email"
+    restApiUri: "https://api.site.com/api/",
+    apiUri: "https://devApi.site.org/api/",
+    emailUri: "https://noti.site.com/api/email",
+    emailTTUrl: "https://noti.site.org/api/Email"
   },
   getters: {
     restApi(state) {
@@ -15,9 +13,6 @@ export default {
     api(state) {
       return state.apiUri;
     },
-    // devApi(state) {
-    //   return state.devApiUri;
-    // },
     emailApi(state) {
       return state.emailApi;
     },
